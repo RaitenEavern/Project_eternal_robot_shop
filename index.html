@@ -17,9 +17,9 @@
 
             <div class="nav-main">
 
-            <a href="#">Роботы</a>
-            <a href="#">О роботах</a>
-            <a href="#">Как заказать</a>
+            <a href="#robots">Роботы</a>
+            <a href="#features">О роботах</a>
+            <a href="#order">Как заказать</a>
 
             </div>
             
@@ -58,8 +58,8 @@
 
         <section class="second_slide" id="robots">
 
-            <h2 class="second_slide_header">Выберите характер <br>Он останется навсегда</h2>
-            
+            <h2 class="second_slide_header">Выберите характер<br>Он останется навсегда</h2>
+
             <div class="second_slide_content">
 
                 <div class="second_slide_left">
@@ -67,33 +67,151 @@
                 </div>
 
                 <div class="second_slide_right">
-                    
-                    <div class="second_slide_robot_option">
-                        <h3>Друг</h3>
-                        <p>Для разговоров и новых открытий</p>
-                    </div>
 
-                    <div class="second_slide_robot_option">
-                        <h3>Хранитель</h3>
-                        <p>Для спокойного дома</p>
-                    </div>
+                    <fieldset class="second_slide_options">
 
-                    <div class="second_slide_robot_option">
-                        <h3>Мастер</h3>
-                        <p>Для повседневных дел</p>
-                    </div>
+                        <legend class="visually-hidden">Характер робота</legend>
 
-                    <div class="second_slide_button">
-                        <a href="#">Выбрать робота</a>
-                    </div>
+                        <label class="second_slide_robot_option">
+                            <input type="radio" name="character" value="friend" checked>
+                            <span class="second_slide_option_title">Друг</span>
+                            <span class="second_slide_option_text">Для разговоров и новых открытий</span>
+                        </label>
+
+                        <label class="second_slide_robot_option">
+                            <input type="radio" name="character" value="keeper">
+                            <span class="second_slide_option_title">Хранитель</span>
+                            <span class="second_slide_option_text">Для спокойного дома</span>
+                        </label>
+
+                        <label class="second_slide_robot_option">
+                            <input type="radio" name="character" value="master">
+                            <span class="second_slide_option_title">Мастер</span>
+                            <span class="second_slide_option_text">Для повседневных дел</span>
+                        </label>
+
+                    </fieldset>
+
+                    <a class="second_slide_button" href="#">Выбрать робота <img src="assets/first_slide_arrow.svg" alt=""></a>
 
                 </div>
 
             </div>
 
+            <p class="second_slide_caption"><img src="assets/Vector_header_infinity.svg" alt="">Любой характер. Одна вечная конструкция</p>
+
         </section>
-        
+
+        <section class="third_slide" id="features">
+
+            <img class="third_slide_decor" src="assets/third_slide_decor.svg" alt="">
+
+            <div class="third_slide_content">
+
+                <p class="third_slide_label">Возможности</p>
+                <h2 class="third_slide_header">Меняется мир.<br>Он успевает за вами.</h2>
+                <p class="third_slide_description">Учится новому, помнит привычки<br>и остаётся тем же помощником.</p>
+
+            </div>
+
+        </section>
+
+        <section class="fourth_slide" id="skills">
+
+            <p class="fourth_slide_number">05</p>
+
+            <div class="fourth_slide_panel">
+
+                <img class="fourth_slide_screw" src="assets/screw.svg" alt="">
+                <img class="fourth_slide_screw" src="assets/screw.svg" alt="">
+                <img class="fourth_slide_screw" src="assets/screw.svg" alt="">
+                <img class="fourth_slide_screw" src="assets/screw.svg" alt="">
+
+                <div class="fourth_slide_screen">
+
+                    <div class="fourth_slide_screen_top">
+                        <p>Панель робота / Модель 01</p>
+                        <p class="fourth_slide_status">На связи</p>
+                    </div>
+
+                    <div class="fourth_slide_screen_content">
+
+                        <div class="fourth_slide_left">
+                            <h2 class="fourth_slide_header">Новые умения.<br>Тот же робот.</h2>
+                            <p class="fourth_slide_description">Добавляйте возможности.<br>Всё знакомое останется с ним.</p>
+                            <a class="fourth_slide_button" href="#">Выбрать новые возможности <img src="assets/arrow_dark.svg" alt=""></a>
+                        </div>
+
+                        <div class="fourth_slide_right">
+
+                            <label class="fourth_slide_skill">
+                                <span class="fourth_slide_skill_title">Память</span>
+                                <span class="fourth_slide_skill_text">Всё важное сохранено</span>
+                                <input class="visually-hidden" type="checkbox" role="switch" checked>
+                                <span class="fourth_slide_switch"></span>
+                            </label>
+
+                            <label class="fourth_slide_skill">
+                                <span class="fourth_slide_skill_title">Привычки</span>
+                                <span class="fourth_slide_skill_text">Знает ваш распорядок</span>
+                                <input class="visually-hidden" type="checkbox" role="switch" checked>
+                                <span class="fourth_slide_switch"></span>
+                            </label>
+
+                            <label class="fourth_slide_skill">
+                                <span class="fourth_slide_skill_title">Новые навыки</span>
+                                <span class="fourth_slide_skill_text">Готов учиться</span>
+                                <input class="visually-hidden" type="checkbox" role="switch" checked>
+                                <span class="fourth_slide_switch"></span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="fourth_slide_panel_bottom">
+                    <p class="fourth_slide_caption"><img src="assets/Vector_header_infinity.svg" alt="">Один робот. Всё больше возможностей.</p>
+                    <span class="fourth_slide_stripes"></span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="fifth_slide" id="order">
+
+            <div class="fifth_slide_content">
+
+                <h2 class="fifth_slide_header">Ваш робот<br>уже ждёт.</h2>
+                <p class="fifth_slide_description">Расскажите, с чем нужна помощь.<br>Подберём подходящую модель.</p>
+                <a class="fifth_slide_button" href="#robots">Подобрать робота <img src="assets/first_slide_arrow.svg" alt=""></a>
+
+            </div>
+
+            <img class="fifth_slide_robot" src="assets/last_slide_robot.svg" alt="">
+
+        </section>
+
     </main>
+
+    <footer class="footer">
+
+        <a class="logo" href="#"><img src="assets/Vector_header_infinity.svg" alt="">ROBOT ETERNITY</a>
+
+        <nav class="footer_nav">
+
+            <div class="footer_nav_main">
+                <a href="#robots">Роботы</a>
+                <a href="#features">Возможности</a>
+            </div>
+
+            <a class="footer_contact" href="#">Связаться с нами <img src="assets/arrow_dark.svg" alt=""></a>
+
+        </nav>
+
+    </footer>
 
 </body>
 </html>
